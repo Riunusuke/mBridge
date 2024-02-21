@@ -1,0 +1,7 @@
+{
+  "name": "mBridge",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
