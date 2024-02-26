@@ -1,13 +1,45 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>landing</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true" >
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">landing</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid >
+    <ion-row class="ion-justify-content-center ion-align-items-center">
+      <ion-col size="5">
+        <ion-img
+          src="../../../assets/img/grupo.png"
+          alt="Bienvenido"
+        ></ion-img>
+      </ion-col>      
+    </ion-row>
+    <ion-row class="ion-justify-content-center ion-align-items-center ion-padding">
+      <ion-col size="6">
+        <ion-button [routerLink]="['/login']">
+          Comenzar
+          <ion-icon slot="end" name="caret-forward-circle-outline"></ion-icon>
+        </ion-button>
+      </ion-col>      
+    </ion-row>
+    <ion-row class="ion-justify-content-center ion-align-items-center ion-padding-top">
+      <ion-col size="6">
+        <ion-title>Hecho por:</ion-title>
+      </ion-col>      
+    </ion-row>
+    <ion-row class="ion-justify-content-center ion-align-items-center">
+      <ion-col size="6">
+        <ion-title>Andres Felipe Diaz Bolaños</ion-title>
+      </ion-col>      
+    </ion-row>
+    <ion-row class="ion-justify-content-center ion-align-items-center">
+      <ion-col size="6">
+        <ion-title>Daniel Santiago Guerrero Riaño</ion-title>
+      </ion-col>      
+    </ion-row>
+    <ion-row class="ion-justify-content-center ion-align-items-center">
+      <ion-col size="6">
+        <ion-title>Nicolas Medina Garcia</ion-title>
+      </ion-col>      
+    </ion-row>
+  </ion-grid>
+
+  
+ 
+  
 </ion-content>
